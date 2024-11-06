@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+    id="WebApp_ID" version="5.0">
+    
+    <display-name>UserAccessManagementSystem</display-name>
+    
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- SignUpServlet Configuration -->
+    <!-- <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>com.servlet.SignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/SignUpServlet</url-pattern>
+    </servlet-mapping>
+
+    LoginServlet Configuration
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    SoftwareServlet Configuration
+    <servlet>
+        <servlet-name>SoftwareServlet</servlet-name>
+        <servlet-class>com.servlet.SoftwareServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SoftwareServlet</servlet-name>
+        <url-pattern>/SoftwareServlet</url-pattern>
+    </servlet-mapping>
+
+    RequestServlet Configuration
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>com.servlet.RequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/RequestServlet</url-pattern>
+    </servlet-mapping>
+
+    ApprovalServlet Configuration
+    <servlet>
+        <servlet-name>ApprovalServlet</servlet-name>
+        <servlet-class>com.servlet.ApprovalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApprovalServlet</servlet-name>
+        <url-pattern>/ApprovalServlet</url-pattern>
+    </servlet-mapping> -->
+
+</web-app>
